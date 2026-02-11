@@ -49,8 +49,15 @@ import pic46 from '../../assets/pic46.png'
 import pic47 from '../../assets/pic47.png'
 import pic48 from '../../assets/pic48.png'
 import pic49 from '../../assets/pic49.png'
+import besthomes from '../../assets/besthomes.jpg'
+import frozen from '../../assets/frozen.png'
+import pantry from '../../assets/pantry.png'
+import snacks from '../../assets/snacks.png'
+import breakfast from '../../assets/breakfast.png'
+import items from '../../assets/items.png'
+import badge from '../../assets/badge.png'
 
-import { FaChevronDown, FaCircleArrowRight } from 'react-icons/fa6'
+import { FaChevronDown, FaCircleArrowRight, FaPlay } from 'react-icons/fa6'
 import Footer from '../Components/Footer'
 import { IoIosArrowDown } from 'react-icons/io'
 
@@ -59,7 +66,7 @@ function User_home() {
     <>
       <Header/>
      
-        <div className='w-full h-auto bg-grar-50 flex flex-col items-center'>
+        <div className='w-full h-auto lg:h-[2672.62px] bg-[#ECF0F1] flex flex-col items-center'>
             {/* cards div */}
            <div
   className="w-full max-w-[1198.13px] mx-auto h-[125.85px] mt-13 flex gap-2 overflow-x-auto lg:overflow-visible scrollbar-hide"
@@ -76,7 +83,7 @@ function User_home() {
   {/* Box 2 */}
   <div className="min-w-[114.35px] h-[125.85px] rounded-2xl bg-white shadow-md shadow-[#27AE6040] flex flex-col items-center relative overflow-hidden snap-start">
     <p className="text-center text-sm text-gray-800 leading-tight mt-3 mb-2 z-20">
-      Groceries <br /> & Kitchen
+      Baby & Kids
     </p>
     <img src={pic2} className="w-[103.86px] h-[71.69px] object-contain z-10" />
     <div className="absolute -bottom-4 w-[96.88px] h-[40.62px] bg-[#E6FFF3] rounded-t-full z-20" />
@@ -94,7 +101,7 @@ function User_home() {
   {/* Box 4 */}
   <div className="min-w-[114.35px] h-[125.85px] rounded-2xl bg-white shadow-md shadow-[#27AE6040] flex flex-col items-center relative overflow-hidden snap-start">
     <p className="text-center text-sm text-gray-800 leading-tight mt-3 mb-2 z-20">
-      Personal care <br /> & Hygiene
+       Groceries <br /> & Kitchen
     </p>
     <img src={pic4} className="w-[103.86px] h-[71.69px] object-contain z-10" />
     <div className="absolute -bottom-4 w-[96.88px] h-[40.62px] bg-[#E6FFF3] rounded-t-full z-20" />
@@ -103,7 +110,7 @@ function User_home() {
   {/* Box 5 */}
   <div className="min-w-[114.35px] h-[125.85px] rounded-2xl bg-white shadow-md shadow-[#27AE6040] flex flex-col items-center relative overflow-hidden snap-start">
     <p className="text-center text-sm text-gray-800 leading-tight mt-3 mb-2 z-20">
-      Personal care <br /> & Hygiene
+       Groceries <br /> & Kitchen
     </p>
     <img src={pic5} className="w-[103.86px] h-[71.69px] object-contain z-10" />
     <div className="absolute -bottom-4 w-[96.88px] h-[40.62px] bg-[#E6FFF3] rounded-t-full z-20" />
@@ -112,7 +119,7 @@ function User_home() {
   {/* Box 6 */}
   <div className="min-w-[114.35px] h-[125.85px] rounded-2xl bg-white shadow-md shadow-[#27AE6040] flex flex-col items-center relative overflow-hidden snap-start">
     <p className="text-center text-sm text-gray-800 leading-tight mt-3 mb-2 z-20">
-      Personal care <br /> & Hygiene
+      Groceries <br /> & Kitchen
     </p>
     <img src={pic6} className="w-[103.86px] h-[71.69px] object-contain z-10" />
     <div className="absolute -bottom-4 w-[96.88px] h-[40.62px] bg-[#E6FFF3] rounded-t-full z-20" />
@@ -121,7 +128,7 @@ function User_home() {
   {/* Box 7 */}
   <div className="min-w-[114.35px] h-[125.85px] rounded-2xl bg-white shadow-md shadow-[#27AE6040] flex flex-col items-center relative overflow-hidden snap-start">
     <p className="text-center text-sm text-gray-800 leading-tight mt-3 mb-2 z-20">
-      Personal care <br /> & Hygiene
+       Groceries <br /> & Kitchen
     </p>
     <img src={pic7} className="w-[103.86px] h-[71.69px] object-contain z-10" />
     <div className="absolute -bottom-4 w-[96.88px] h-[40.62px] bg-[#E6FFF3] rounded-t-full z-20" />
@@ -130,7 +137,7 @@ function User_home() {
   {/* Box 8 */}
   <div className="min-w-[114.35px] h-[125.85px] rounded-2xl bg-white shadow-md shadow-[#27AE6040] flex flex-col items-center relative overflow-hidden snap-start">
     <p className="text-center text-sm text-gray-800 leading-tight mt-3 mb-2 z-20">
-      Personal care <br /> & Hygiene
+       Groceries <br /> & Kitchen
     </p>
     <img src={pic8} className="w-[103.86px] h-[71.69px] object-contain z-10" />
     <div className="absolute -bottom-4 w-[96.88px] h-[40.62px] bg-[#E6FFF3] rounded-t-full z-20" />
@@ -139,7 +146,7 @@ function User_home() {
   {/* Box 9 */}
   <div className="min-w-[114.35px] h-[125.85px] rounded-2xl bg-white shadow-md shadow-[#27AE6040] flex flex-col items-center relative overflow-hidden snap-start">
     <p className="text-center text-sm text-gray-800 leading-tight mt-3 mb-2 z-20">
-      Personal care <br /> & Hygiene
+       Groceries <br /> & Kitchen
     </p>
     <img src={pic9} className="w-[103.86px] h-[71.69px] object-contain z-10" />
     <div className="absolute -bottom-4 w-[96.88px] h-[40.62px] bg-[#E6FFF3] rounded-t-full z-20" />
@@ -148,7 +155,7 @@ function User_home() {
   {/* Box 10 */}
   <div className="min-w-[114.35px] h-[125.85px] rounded-2xl bg-white shadow-md shadow-[#27AE6040] flex flex-col items-center relative overflow-hidden snap-start">
     <p className="text-center text-sm text-gray-800 leading-tight mt-3 mb-2 z-20">
-      Personal care <br /> & Hygiene
+       Groceries <br /> & Kitchen
     </p>
     <img src={pic10} className="w-[103.86px] h-[71.69px] object-contain z-10" />
     <div className="absolute -bottom-4 w-[96.88px] h-[40.62px] bg-[#E6FFF3] rounded-t-full z-20" />
@@ -167,7 +174,7 @@ function User_home() {
   </div>
 
   <img
-    src="https://thumbs.dreamstime.com/b/kitchen-utensils-dishware-wooden-shelf-interior-background-website-banner-design-97855592.jpg"
+    src={besthomes}
     alt="Home deals"
     className="absolute right-0 top-0 h-full w-full object-cover"
   />
@@ -232,47 +239,75 @@ function User_home() {
 </div>
 
         {/* banner div 2 */}
-    <div className=" w-full max-w-[683.19px] h-auto lg:h-[189.97px] bg-[#FDF2DF]
-  rounded-2xl mt-5 flex flex-col lg:flex-row items-start lg:items-center px-4 sm:px-6 lg:px-8 ms-0 lg:ms-[-512px] gap-6">
+ <div className="w-full max-w-[683.19px] h-auto lg:h-[189.97px] bg-[#FDF2DF]
+rounded-2xl mt-5 flex flex-col lg:flex-row items-start lg:items-center 
+px-4 sm:px-6 lg:px-8 ms-0 lg:ms-[-512px] gap-6">
+
+  {/* Left section */}
   <div className="flex flex-col gap-3 max-w-full lg:max-w-[260px]">
     <p className="font-semibold text-base sm:text-lg leading-tight">
       Your personal grocery assistant
       <span className="block text-sm font-normal text-gray-600 mt-1">
-        Find recipes, get recommendations, and <br className="hidden sm:block" />
+        Find recipes, get recommendations, and 
         shop smarter with AI
       </span>
     </p>
-    <button className="bg-[#F39C12] w-[95.18px] h-[32px] text-white text-sm rounded-2xl">
+
+    <button className="bg-[#F39C12] w-[95.18px] h-[32px] 
+    text-white text-sm rounded-2xl">
       Try now
     </button>
   </div>
 
-  <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 w-full lg:w-auto lg:ml-auto">
-    <div className="w-full sm:w-[113.41px] h-[154px] bg-white rounded-xl flex flex-col items-center justify-between py-2 shadow-sm">
-      <p className="text-sm font-semibold text-center">Recipe <br /> Suggestion</p>
-      <img src={pic16} className="w-[69.68px] h-[70.39px]" />
-      <button className="w-[99.54px] h-[32px] bg-[#F39C1233] rounded-lg text-[#F39C12] font-semibold">
+  {/* Cards */}
+  <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 
+  w-full lg:w-auto lg:ml-auto">
+
+    {/* Card 1 */}
+    <div className="w-full sm:w-[113.41px] h-[154px] 
+    bg-white rounded-xl flex flex-col 
+    items-center justify-between py-2 shadow-sm">
+      <p className="text-sm font-semibold text-center">
+        Recipe <br /> Suggestion
+      </p>
+      <img src={pic16} className="w-[69.68px] h-[70.39px] object-contain" />
+      <button className="w-[99.54px] h-[32px] 
+      bg-[#F39C1233] rounded-lg text-[#F39C12] font-semibold">
         Browse
       </button>
     </div>
 
-    <div className="w-full sm:w-[113.41px] h-[154px] bg-white rounded-xl flex flex-col items-center justify-between py-2 shadow-sm">
-      <p className="text-sm font-semibold text-center">Personalized<br />picks</p>
-      <img src={pic17} className="w-[82.79px] h-[68.66px]" />
-      <button className="w-[99.54px] h-[32px] bg-[#F39C1233] rounded-lg text-[#F39C12] font-semibold">
+    {/* Card 2 */}
+    <div className="w-full sm:w-[113.41px] h-[154px] 
+    bg-white rounded-xl flex flex-col 
+    items-center justify-between py-2 shadow-sm">
+      <p className="text-sm font-semibold text-center">
+        Personalized <br /> picks
+      </p>
+      <img src={pic17} className="w-[82.79px] h-[68.66px] object-contain" />
+      <button className="w-[99.54px] h-[32px] 
+      bg-[#F39C1233] rounded-lg text-[#F39C12] font-semibold">
         View
       </button>
     </div>
 
-    <div className="w-full sm:w-[113.41px] h-[154px] mb-3 bg-white rounded-xl flex flex-col items-center justify-between py-2 shadow-sm sm:col-span-1 col-span-2">
-      <p className="text-sm font-semibold text-center">Meal <br /> planning</p>
-      <img src={pic18} className="w-[69.68px] h-[70.39px]" />
-      <button className="w-[99.54px] h-[32px] bg-[#F39C1233] rounded-lg text-[#F39C12] font-semibold">
+    {/* Card 3 */}
+    <div className="w-full sm:w-[113.41px] h-[154px] 
+    bg-white rounded-xl flex flex-col 
+    items-center justify-between py-2 shadow-sm">
+      <p className="text-sm font-semibold text-center">
+        Meal <br /> planning
+      </p>
+      <img src={pic18} className="w-[69.68px] h-[70.39px] object-contain" />
+      <button className="w-[99.54px] h-[32px] 
+      bg-[#F39C1233] rounded-lg text-[#F39C12] font-semibold">
         Try Search
       </button>
     </div>
+
   </div>
 </div>
+
 
 
 
@@ -293,13 +328,20 @@ function User_home() {
     <div className="w-[140.89px] h-[213.35px] rounded-2xl bg-white shadow-md relative overflow-hidden shadow ">
       <div className="relative bg-[#E5E5E5] h-[118.97px] flex items-center justify-center">
         <div className="absolute top-2 left-2 flex flex-col items-center">
-          <div className="w-0 h-0 border-l-[14px] border-r-[14px] border-b-[8px] border-l-transparent border-r-transparent border-b-green-500"></div>
-          <div className="w-7 h-9 bg-green-500 rounded-b-lg flex items-center justify-center text-white text-[10px] font-semibold relative">
-            5%
-            <span className="absolute top-1 w-1.5 h-1.5 bg-white rounded-full"></span>
-          </div>
+          <div
+  className=" ms-[-8px] sm:ms-[-10px] lg:ms-[-12px] w-7 h-7
+    sm:w-8 sm:h-8 lg:w-[38.85px] lg:h-[38.85px] bg-contain bg-no-repeat bg-center
+    flex justify-center items-center
+    text-white"
+  style={{ backgroundImage: `url(${badge})` }}
+>
+  <p className="text-[10px] sm:text-xs lg:text-sm mt-[2px]">
+    5%
+  </p>
+</div>
+
         </div>
-        <div className="absolute top-2 right-2 flex items-center border border-[#27AE60] rounded-full px-2 py-[2px] text-[#27AE60] text-sm font-medium gap-2 bg-white">
+        <div className="absolute top-2 right-2 flex items-center border border-[#27AE60] rounded-lg px-2 py-[2px] text-[#27AE60] text-sm font-medium gap-2 bg-white">
           <span>−</span>
           <span className="text-[12px]">01</span>
           <span>+</span>
@@ -323,13 +365,19 @@ function User_home() {
     <div className="w-[140.89px] h-[213.35px] rounded-2xl bg-white shadow-md relative overflow-hidden shadow  ">
       <div className="relative bg-[#E5E5E5] h-[118.97px] flex items-center justify-center">
         <div className="absolute top-2 left-2 flex flex-col items-center">
-          <div className="w-0 h-0 border-l-[14px] border-r-[14px] border-b-[8px] border-transparent border-b-[#27AE60]"></div>
-            <div className="w-7 h-9 bg-gradient-to-b from-[#39CB77] via-[#27AE60] to-[#168946] text-white text-[10px] font-semibold rounded-b-lg flex items-center justify-center relative">
-               5%
-             <span className="absolute top-1 w-1.5 h-1.5 bg-white rounded-full"></span>
-             </div>
+               <div
+  className=" ms-[-8px] sm:ms-[-10px] lg:ms-[-12px] w-7 h-7
+    sm:w-8 sm:h-8 lg:w-[38.85px] lg:h-[38.85px] bg-contain bg-no-repeat bg-center
+    flex justify-center items-center
+    text-white"
+  style={{ backgroundImage: `url(${badge})` }}
+>
+  <p className="text-[10px] sm:text-xs lg:text-sm mt-[2px]">
+    10%
+  </p>
+</div>
         </div>
-        <button className="absolute top-2 right-2 w-7 h-7 rounded-xl border border-[#27AE60] text-[#27AE60] flex items-center justify-center text-lg font-medium bg-white">
+        <button className="absolute top-2 right-2 w-7 h-7 rounded-lg border border-[#27AE60] text-[#27AE60] flex items-center justify-center text-lg font-medium bg-white">
           +
         </button>
         <img src={pic20} className="w-[52px] h-[92px] object-contain" />
@@ -354,26 +402,35 @@ function User_home() {
     <div className="w-[140.89px] h-[213.35px] rounded-2xl bg-white shadow-md relative overflow-hidden shadow">
       <div className="relative bg-[#E5E5E5] h-[118.97px] flex items-center justify-center">
         <div className="absolute top-2 left-2 flex flex-col items-center">
-          <div className="w-0 h-0 border-l-[14px] border-r-[14px] border-b-[8px] border-transparent border-b-[#27AE60]"></div>
-            <div className="w-7 h-9 bg-gradient-to-b from-[#39CB77] via-[#27AE60] to-[#168946] text-white text-[10px] font-semibold rounded-b-lg flex items-center justify-center relative">
-               3%
-             <span className="absolute top-1 w-1.5 h-1.5 bg-white rounded-full"></span>
-             </div>
+                <div
+  className=" ms-[-8px] sm:ms-[-10px] lg:ms-[-12px] w-7 h-7
+    sm:w-8 sm:h-8 lg:w-[38.85px] lg:h-[38.85px] bg-contain bg-no-repeat bg-center
+    flex justify-center items-center
+    text-white"
+  style={{ backgroundImage: `url(${badge})` }}
+>
+  <p className="text-[10px] sm:text-xs lg:text-sm mt-[2px]">
+    5%
+  </p>
+</div>
         </div>
-       <button className="absolute top-2 right-2 w-7 h-7 rounded-xl border border-[#27AE60] text-[#27AE60] flex items-center justify-center text-lg font-medium bg-white">
+       <button className="absolute top-2 right-2 w-7 h-7 rounded-lg border border-[#27AE60] text-[#27AE60] flex items-center justify-center text-lg font-medium bg-white">
           +
         </button>
         <img src={pic21} className="w-[126px] h-[140px] object-contain" />
       </div>
       <div className="px-2 pt-2 flex flex-col gap-1">
         <p className="text-[12px] font-medium leading-tight">
-          Amul Dark<br />Chocolate 70% Cocoa
+          Hybrid  Tomatoes
         </p>
-        <div className="flex items-end justify-between mt-1">
+        <div className="flex items-end justify-between mt-5">
           <div className="flex items-center gap-1 text-[12px] text-gray-500">
-            200g <span className="text-[#27AE60] text-sm"><IoIosArrowDown className='text-green-600 mt-1' /></span>
+            500g <span className="text-[#27AE60] text-sm"><IoIosArrowDown className='text-green-600 mt-1' /></span>
           </div>
-          <span className="text-[14px] font-semibold text-black">₹180</span>
+          <div className="flex flex-col items-end leading-tight">
+            <span className="text-[10px] text-gray-400 line-through">₹30</span>
+            <span className="text-[14px] font-semibold text-black">₹25</span>
+          </div>
         </div>
       </div>
     </div>
@@ -382,26 +439,35 @@ function User_home() {
     <div className="w-[140.89px] h-[213.35px] rounded-2xl bg-white shadow-md relative overflow-hidden shadow">
       <div className="relative bg-[#E5E5E5] h-[118.97px] flex items-center justify-center">
         <div className="absolute top-2 left-2 flex flex-col items-center">
-         <div className="w-0 h-0 border-l-[14px] border-r-[14px] border-b-[8px] border-transparent border-b-[#27AE60]"></div>
-            <div className="w-7 h-9 bg-gradient-to-b from-[#39CB77] via-[#27AE60] to-[#168946] text-white text-[10px] font-semibold rounded-b-lg flex items-center justify-center relative">
-               5%
-             <span className="absolute top-1 w-1.5 h-1.5 bg-white rounded-full"></span>
-             </div>
+               <div
+  className=" ms-[-8px] sm:ms-[-10px] lg:ms-[-12px] w-7 h-7
+    sm:w-8 sm:h-8 lg:w-[38.85px] lg:h-[38.85px] bg-contain bg-no-repeat bg-center
+    flex justify-center items-center
+    text-white"
+  style={{ backgroundImage: `url(${badge})` }}
+>
+  <p className="text-[10px] sm:text-xs lg:text-sm mt-[2px]">
+    5%
+  </p>
+</div>
         </div>
-       <button className="absolute top-2 right-2 w-7 h-7 rounded-xl border border-[#27AE60] text-[#27AE60] flex items-center justify-center text-lg font-medium bg-white">
+       <button className="absolute top-2 right-2 w-7 h-7 rounded-lg border border-[#27AE60] text-[#27AE60] flex items-center justify-center text-lg font-medium bg-white">
           +
         </button>
         <img src={pic22} className="w-[141px] h-[102px] object-contain" />
       </div>
       <div className="px-2 pt-2 flex flex-col gap-1">
         <p className="text-[12px] font-medium leading-tight">
-          Amul Dark<br />Chocolate 70% Cocoa
+          Broccoli
         </p>
-        <div className="flex items-end justify-between mt-1">
+        <div className="flex items-end justify-between mt-5">
           <div className="flex items-center gap-1 text-[12px] text-gray-500">
-            200g <span className="text-[#27AE60] text-sm"><IoIosArrowDown className='text-green-600 mt-1' /></span>
+            1Piece <span className="text-[#27AE60] text-sm"><IoIosArrowDown className='text-green-600 mt-1' /></span>
           </div>
-          <span className="text-[14px] font-semibold text-black">₹180</span>
+          <div className="flex flex-col items-end leading-tight">
+            <span className="text-[10px] text-gray-400 line-through">₹60</span>
+            <span className="text-[14px] font-semibold text-black">₹50</span>
+          </div>
         </div>
       </div>
     </div>
@@ -410,13 +476,19 @@ function User_home() {
     <div className="w-[140.89px] h-[213.35px] rounded-2xl bg-white shadow-md relative overflow-hidden shadow">
       <div className="relative bg-[#E5E5E5] h-[118.97px] flex items-center justify-center">
         <div className="absolute top-2 left-2 flex flex-col items-center">
-          <div className="w-0 h-0 border-l-[14px] border-r-[14px] border-b-[8px] border-l-transparent border-r-transparent border-b-green-500"></div>
-          <div className="w-7 h-9 bg-green-500 rounded-b-lg flex items-center justify-center text-white text-[10px] font-semibold relative">
-            5%
-            <span className="absolute top-1 w-1.5 h-1.5 bg-white rounded-full"></span>
-          </div>
+                 <div
+  className=" ms-[-8px] sm:ms-[-10px] lg:ms-[-12px] w-7 h-7
+    sm:w-8 sm:h-8 lg:w-[38.85px] lg:h-[38.85px] bg-contain bg-no-repeat bg-center
+    flex justify-center items-center
+    text-white"
+  style={{ backgroundImage: `url(${badge})` }}
+>
+  <p className="text-[10px] sm:text-xs lg:text-sm mt-[2px]">
+    5%
+  </p>
+</div>
         </div>
-        <div className="absolute top-2 right-2 flex items-center border border-[#27AE60] rounded-full px-2 py-[2px] text-[#27AE60] text-sm font-medium gap-2 bg-white">
+        <div className="absolute top-2 right-2 flex items-center border border-[#27AE60] rounded-lg px-2 py-[2px] text-[#27AE60] text-sm font-medium gap-2 bg-white">
           <span>−</span>
           <span className="text-[12px]">01</span>
           <span>+</span>
@@ -425,9 +497,9 @@ function User_home() {
       </div>
       <div className="px-2 pt-2 flex flex-col gap-1">
         <p className="text-[12px] font-medium leading-tight">
-          Amul Dark<br />Chocolate 70% Cocoa
+          Amul Dark<br />Chocolate 70% <br /> Cocoa
         </p>
-        <div className="flex items-end justify-between mt-1">
+        <div className="flex items-end justify-between ">
           <div className="flex items-center gap-1 text-[12px] text-gray-500">
             200g <span className="text-[#27AE60] text-sm"><IoIosArrowDown className='text-green-600 mt-1' /></span>
           </div>
@@ -437,57 +509,75 @@ function User_home() {
     </div>
 
     {/* card 6 */}
-    <div className="w-[140.89px] h-[213.35px] rounded-2xl bg-white shadow-md relative overflow-hidden shadow">
+     <div className="w-[140.89px] h-[213.35px] rounded-2xl bg-white shadow-md relative overflow-hidden shadow  ">
       <div className="relative bg-[#E5E5E5] h-[118.97px] flex items-center justify-center">
         <div className="absolute top-2 left-2 flex flex-col items-center">
-         <div className="w-0 h-0 border-l-[14px] border-r-[14px] border-b-[8px] border-transparent border-b-[#27AE60]"></div>
-            <div className="w-7 h-9 bg-gradient-to-b from-[#39CB77] via-[#27AE60] to-[#168946] text-white text-[10px] font-semibold rounded-b-lg flex items-center justify-center relative">
-               10%
-             <span className="absolute top-1 w-1.5 h-1.5 bg-white rounded-full"></span>
-             </div>
+                <div
+  className=" ms-[-8px] sm:ms-[-10px] lg:ms-[-12px] w-7 h-7
+    sm:w-8 sm:h-8 lg:w-[38.85px] lg:h-[38.85px] bg-contain bg-no-repeat bg-center
+    flex justify-center items-center
+    text-white"
+  style={{ backgroundImage: `url(${badge})` }}
+>
+  <p className="text-[10px] sm:text-xs lg:text-sm mt-[2px]">
+    5%
+  </p>
+</div>
         </div>
-        <button className="absolute top-2 right-2 w-7 h-7 rounded-xl border border-[#27AE60] text-[#27AE60] flex items-center justify-center text-lg font-medium bg-white">
+        <button className="absolute top-2 right-2 w-7 h-7 rounded-lg border border-[#27AE60] text-[#27AE60] flex items-center justify-center text-lg font-medium bg-white">
           +
         </button>
-        <img src={pic24} className="w-[52px] h-[92px] object-contain" />
+        <img src={pic20} className="w-[52px] h-[92px] object-contain" />
       </div>
       <div className="px-2 pt-2 flex flex-col gap-1">
         <p className="text-[12px] font-medium leading-tight">
-          Amul Dark<br />Chocolate 70% Cocoa
+          Organic<br />Almond Milk
         </p>
         <div className="flex items-end justify-between mt-1">
           <div className="flex items-center gap-1 text-[12px] text-gray-500">
-            200g <span className="text-[#27AE60] text-sm"><IoIosArrowDown className='text-green-600 mt-1' /></span>
+            1L <span className="text-[#27AE60] text-sm"><IoIosArrowDown className='text-green-600 ' /></span>
           </div>
-          <span className="text-[14px] font-semibold text-black">₹180</span>
+          <div className="flex flex-col items-end leading-tight">
+            <span className="text-[10px] text-gray-400 line-through">₹280</span>
+            <span className="text-[14px] font-semibold text-black">₹280</span>
+          </div>
         </div>
       </div>
     </div>
 
     {/* card 7 */}
-    <div className="w-[140.89px] h-[213.35px] rounded-2xl bg-white shadow-md relative overflow-hidden shadow">
+     <div className="w-[140.89px] h-[213.35px] rounded-2xl bg-white shadow-md relative overflow-hidden shadow">
       <div className="relative bg-[#E5E5E5] h-[118.97px] flex items-center justify-center">
         <div className="absolute top-2 left-2 flex flex-col items-center">
-         <div className="w-0 h-0 border-l-[14px] border-r-[14px] border-b-[8px] border-transparent border-b-[#27AE60]"></div>
-            <div className="w-7 h-9 bg-gradient-to-b from-[#39CB77] via-[#27AE60] to-[#168946] text-white text-[10px] font-semibold rounded-b-lg flex items-center justify-center relative">
-               5%
-             <span className="absolute top-1 w-1.5 h-1.5 bg-white rounded-full"></span>
-             </div>
+               <div
+  className=" ms-[-8px] sm:ms-[-10px] lg:ms-[-12px] w-7 h-7
+    sm:w-8 sm:h-8 lg:w-[38.85px] lg:h-[38.85px] bg-contain bg-no-repeat bg-center
+    flex justify-center items-center
+    text-white"
+  style={{ backgroundImage: `url(${badge})` }}
+>
+  <p className="text-[10px] sm:text-xs lg:text-sm mt-[2px]">
+    5%
+  </p>
+</div>
         </div>
-       <button className="absolute top-2 right-2 w-7 h-7 rounded-xl border border-[#27AE60] text-[#27AE60] flex items-center justify-center text-lg font-medium bg-white">
+       <button className="absolute top-2 right-2 w-7 h-7 rounded-lg border border-[#27AE60] text-[#27AE60] flex items-center justify-center text-lg font-medium bg-white">
           +
         </button>
-        <img src={pic25} className="w-[142px] h-[132px] object-contain" />
+        <img src={pic21} className="w-[126px] h-[140px] object-contain" />
       </div>
       <div className="px-2 pt-2 flex flex-col gap-1">
         <p className="text-[12px] font-medium leading-tight">
-          Amul Dark<br />Chocolate 70% Cocoa
+          Hybrid  Tomatoes
         </p>
-        <div className="flex items-end justify-between mt-1">
+        <div className="flex items-end justify-between mt-5">
           <div className="flex items-center gap-1 text-[12px] text-gray-500">
-            200g <span className="text-[#27AE60] text-sm"><IoIosArrowDown className='text-green-600 mt-1' /></span>
+            500g <span className="text-[#27AE60] text-sm"><IoIosArrowDown className='text-green-600 mt-1' /></span>
           </div>
-          <span className="text-[14px] font-semibold text-black">₹180</span>
+          <div className="flex flex-col items-end leading-tight">
+            <span className="text-[10px] text-gray-400 line-through">₹30</span>
+            <span className="text-[14px] font-semibold text-black">₹25</span>
+          </div>
         </div>
       </div>
     </div>
@@ -496,26 +586,35 @@ function User_home() {
     <div className="w-[140.89px] h-[213.35px] rounded-2xl bg-white shadow-md relative overflow-hidden shadow">
       <div className="relative bg-[#E5E5E5] h-[118.97px] flex items-center justify-center">
         <div className="absolute top-2 left-2 flex flex-col items-center">
-         <div className="w-0 h-0 border-l-[14px] border-r-[14px] border-b-[8px] border-transparent border-b-[#27AE60]"></div>
-            <div className="w-7 h-9 bg-gradient-to-b from-[#39CB77] via-[#27AE60] to-[#168946] text-white text-[10px] font-semibold rounded-b-lg flex items-center justify-center relative">
-               5%
-             <span className="absolute top-1 w-1.5 h-1.5 bg-white rounded-full"></span>
-             </div>
+               <div
+  className=" ms-[-8px] sm:ms-[-10px] lg:ms-[-12px] w-7 h-7
+    sm:w-8 sm:h-8 lg:w-[38.85px] lg:h-[38.85px] bg-contain bg-no-repeat bg-center
+    flex justify-center items-center
+    text-white"
+  style={{ backgroundImage: `url(${badge})` }}
+>
+  <p className="text-[10px] sm:text-xs lg:text-sm mt-[2px]">
+    5%
+  </p>
+</div>
         </div>
-        <button className="absolute top-2 right-2 w-7 h-7 rounded-xl border border-[#27AE60] text-[#27AE60] flex items-center justify-center text-lg font-medium bg-white">
+       <button className="absolute top-2 right-2 w-7 h-7 rounded-lg border border-[#27AE60] text-[#27AE60] flex items-center justify-center text-lg font-medium bg-white">
           +
         </button>
-        <img src={pic26} className="w-[142px] h-[122px] object-contain" />
+        <img src={pic22} className="w-[141px] h-[102px] object-contain" />
       </div>
       <div className="px-2 pt-2 flex flex-col gap-1">
         <p className="text-[12px] font-medium leading-tight">
-          Amul Dark<br />Chocolate 70% Cocoa
+          Broccoli
         </p>
-        <div className="flex items-end justify-between mt-1">
+        <div className="flex items-end justify-between mt-5">
           <div className="flex items-center gap-1 text-[12px] text-gray-500">
-            200g <span className="text-[#27AE60] text-sm"><IoIosArrowDown className='text-green-600 mt-1' /></span>
+            1Piece <span className="text-[#27AE60] text-sm"><IoIosArrowDown className='text-green-600 mt-1' /></span>
           </div>
-          <span className="text-[14px] font-semibold text-black">₹180</span>
+          <div className="flex flex-col items-end leading-tight">
+            <span className="text-[10px] text-gray-400 line-through">₹60</span>
+            <span className="text-[14px] font-semibold text-black">₹50</span>
+          </div>
         </div>
       </div>
     </div>
@@ -536,271 +635,377 @@ function User_home() {
     </div>
   </div>
 
-  {/* Cards row */}
+  {/* Cards Row */}
   <div className="relative">
 
-    {/* Cards wrapper */}
-    <div
-      className="flex gap-1.5 overflow-x-auto lg:overflow-x-visible pb-2 pr-[140px] lg:pr-[60px] scrollbar-hide [-ms-overflow-style:none] [scrollbar-width:none]
-        [&::-webkit-scrollbar]:hidden"
-    >
+    {/* Cards Wrapper */}
+ <div
+  className="
+    flex
+    gap-1
+    overflow-x-auto
+    lg:overflow-x-visible
+    pb-2
+    w-full
+    lg:justify-center
+    scrollbar-hide
+    [-ms-overflow-style:none]
+    [scrollbar-width:none]
+    [&::-webkit-scrollbar]:hidden
+  "
+>
+
+
+
+
+
 
       {/* CARD 1 */}
-      <div className="min-w-[140.89px] lg:w-[140.89px] h-[210.35px] overflow-hidden bg-white rounded-2xl shadow-md relative shadow">
-        <div className="relative bg-[#E5E5E5] h-[118.97px] flex justify-center items-center">
-          <div className="absolute top-2 left-2 flex flex-col items-center">
-           <div className="w-0 h-0 border-l-[14px] border-r-[14px] border-b-[8px] border-transparent border-b-[#27AE60]"></div>
-            <div className="w-7 h-9 bg-gradient-to-b from-[#39CB77] via-[#27AE60] to-[#168946] text-white text-[10px] font-semibold rounded-b-lg flex items-center justify-center relative">
-               10%
-             <span className="absolute top-1 w-1.5 h-1.5 bg-white rounded-full"></span>
-             </div>
-          </div>
-          <button className="absolute top-2 right-2 w-7 h-7 rounded-xl border border-[#27AE60] text-[#27AE60] bg-white flex items-center justify-center text-lg">+</button>
-          <img src={pic19} className="w-[90px] h-[90px] object-contain" />
+       <div className="flex-shrink-0  w-[140.89px] h-[212.63px] rounded-2xl bg-white shadow-md relative overflow-hidden shadow">
+      <div className="relative bg-[#E5E5E5] h-[118.97px] flex items-center justify-center">
+        <div className="absolute top-2 left-2 flex flex-col items-center">
+              <div
+  className=" ms-[-8px] sm:ms-[-10px] lg:ms-[-12px] w-7 h-7
+    sm:w-8 sm:h-8 lg:w-[38.85px] lg:h-[38.85px] bg-contain bg-no-repeat bg-center
+    flex justify-center items-center
+    text-white"
+  style={{ backgroundImage: `url(${badge})` }}
+>
+  <p className="text-[10px] sm:text-xs lg:text-sm mt-[2px]">
+    5%
+  </p>
+</div>
         </div>
-        <div className="px-2 pt-2">
-          <p className="text-[12px] font-medium">Amul Dark <br /> Chocolate 70% Cocoa</p>
-          <div className="flex justify-between mt-1">
-            <span className="text-[12px] text-gray-500 flex">1Piece <IoIosArrowDown className='text-green-600 mt-1' /></span>
-            <div className="text-right">
-              <p className="text-[10px] line-through text-gray-400">₹60</p>
-              <p className="text-[14px] font-semibold">₹180</p>
-            </div>
+       <button className="absolute top-2 right-2 w-7 h-7 rounded-lg border border-[#27AE60] text-[#27AE60] flex items-center justify-center text-lg font-medium bg-white">
+          +
+        </button>
+        <img src={pic22} className="w-[141px] h-[102px] object-contain" />
+      </div>
+      <div className="px-2 pt-2 flex flex-col gap-1">
+        <p className="text-[12px] font-medium leading-tight">
+          Broccoli
+        </p>
+        <div className="flex items-end justify-between mt-5">
+          <div className="flex items-center gap-1 text-[12px] text-gray-500">
+            1Piece <span className="text-[#27AE60] text-sm"><IoIosArrowDown className='text-green-600 mt-1' /></span>
+          </div>
+          <div className="flex flex-col items-end leading-tight">
+            <span className="text-[10px] text-gray-400 line-through">₹60</span>
+            <span className="text-[14px] font-semibold text-black">₹50</span>
           </div>
         </div>
       </div>
-      {/* card 2 */}
-        <div className="min-w-[140.89px] lg:w-[140.89px] h-[210.35px] overflow-hidden bg-white rounded-2xl shadow-md relative shadow">
-        <div className="relative bg-[#E5E5E5] h-[118.97px] flex justify-center items-center">
-          <div className="absolute top-2 left-2 flex flex-col items-center">
-           <div className="w-0 h-0 border-l-[14px] border-r-[14px] border-b-[8px] border-transparent border-b-[#27AE60]"></div>
-            <div className="w-7 h-9 bg-gradient-to-b from-[#39CB77] via-[#27AE60] to-[#168946] text-white text-[10px] font-semibold rounded-b-lg flex items-center justify-center relative">
-               10%
-             <span className="absolute top-1 w-1.5 h-1.5 bg-white rounded-full"></span>
-             </div>
-          </div>
-          <button className="absolute top-2 right-2 w-7 h-7 rounded-xl border border-[#27AE60] text-[#27AE60] bg-white flex items-center justify-center text-lg">+</button>
-          <img src={pic20} className="w-[90px] h-[90px] object-contain" />
-        </div>
-        <div className="px-2 pt-2">
-          <p className="text-[12px] font-medium">Organic <br />Almond milk</p>
-          <div className="flex justify-between mt-1">
-            <span className="text-[12px] text-gray-500 flex">1Piece <IoIosArrowDown className='text-green-600 mt-1' /></span>
-            <div className="text-right">
-              <p className="text-[10px] line-through text-gray-400">₹60</p>
-              <p className="text-[14px] font-semibold">₹180</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* card 3 */}
-        <div className="min-w-[140.89px] lg:w-[140.89px] h-[210.35px] overflow-hidden bg-white rounded-2xl shadow-md relative shadow">
-        <div className="relative bg-[#E5E5E5] h-[118.97px] flex justify-center items-center">
-          <div className="absolute top-2 left-2 flex flex-col items-center">
-            <div className="w-0 h-0 border-l-[14px] border-r-[14px] border-b-[8px] border-transparent border-b-[#27AE60]"></div>
-            <div className="w-7 h-9 bg-gradient-to-b from-[#39CB77] via-[#27AE60] to-[#168946] text-white text-[10px] font-semibold rounded-b-lg flex items-center justify-center relative">
-               3%
-             <span className="absolute top-1 w-1.5 h-1.5 bg-white rounded-full"></span>
-             </div>
-          </div>
-          <button className="absolute top-2 right-2 w-7 h-7 rounded-xl border border-[#27AE60] text-[#27AE60] bg-white flex items-center justify-center text-lg">+</button>
-          <img src={pic21} className="w-[90px] h-[90px] object-contain" />
-        </div>
-        <div className="px-2 pt-2">
-          <p className="text-[12px] font-medium">Tomato</p>
-          <div className="flex justify-between mt-1">
-            <span className="text-[12px] text-gray-500 flex">1Piece <IoIosArrowDown className='text-green-600 mt-1' /></span>
-            <div className="text-right">
-              <p className="text-[10px] line-through text-gray-400">₹60</p>
-              <p className="text-[14px] font-semibold">₹180</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* card 4 */}
-        <div className="min-w-[140.89px] lg:w-[140.89px] h-[210.35px] overflow-hidden bg-white rounded-2xl shadow-md relative shadow">
-        <div className="relative bg-[#E5E5E5] h-[118.97px] flex justify-center items-center">
-          <div className="absolute top-2 left-2 flex flex-col items-center">
-            <div className="w-0 h-0 border-l-[14px] border-r-[14px] border-b-[8px] border-transparent border-b-[#27AE60]"></div>
-            <div className="w-7 h-9 bg-gradient-to-b from-[#39CB77] via-[#27AE60] to-[#168946] text-white text-[10px] font-semibold rounded-b-lg flex items-center justify-center relative">
-               5%
-             <span className="absolute top-1 w-1.5 h-1.5 bg-white rounded-full"></span>
-             </div>
-          </div>
-          <button className="absolute top-2 right-2 w-7 h-7 rounded-xl border border-[#27AE60] text-[#27AE60] bg-white flex items-center justify-center text-lg">+</button>
-          <img src={pic22} className="w-[90px] h-[90px] object-contain" />
-        </div>
-        <div className="px-2 pt-2">
-          <p className="text-[12px] font-medium">Broccoli</p>
-          <div className="flex justify-between mt-1">
-            <span className="text-[12px] text-gray-500 flex">1Piece <IoIosArrowDown className='text-green-600 mt-1' /></span>
-            <div className="text-right">
-              <p className="text-[10px] line-through text-gray-400">₹60</p>
-              <p className="text-[14px] font-semibold">₹180</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* card 5 */}
-        <div className="min-w-[140.89px] lg:w-[140.89px] h-[210.35px] overflow-hidden bg-white rounded-2xl shadow-md relative shadow">
-        <div className="relative bg-[#E5E5E5] h-[118.97px] flex justify-center items-center">
-          <div className="absolute top-2 left-2 flex flex-col items-center">
-            <div className="w-0 h-0 border-l-[14px] border-r-[14px] border-b-[8px] border-transparent border-b-[#27AE60]"></div>
-            <div className="w-7 h-9 bg-gradient-to-b from-[#39CB77] via-[#27AE60] to-[#168946] text-white text-[10px] font-semibold rounded-b-lg flex items-center justify-center relative">
-               10%
-             <span className="absolute top-1 w-1.5 h-1.5 bg-white rounded-full"></span>
-             </div>
-          </div>
-          <button className="absolute top-2 right-2 w-7 h-7 rounded-xl border border-[#27AE60] text-[#27AE60] bg-white flex items-center justify-center text-lg">+</button>
-          <img src={pic23} className="w-[90px] h-[90px] object-contain" />
-        </div>
-        <div className="px-2 pt-2">
-          <p className="text-[12px] font-medium">Amul Dark <br /> Chocolate 70% Cocoa</p>
-          <div className="flex justify-between mt-1">
-            <span className="text-[12px] text-gray-500 flex">1Piece <IoIosArrowDown className='text-green-600 mt-1' /></span>
-            <div className="text-right">
-              <p className="text-[10px] line-through text-gray-400">₹60</p>
-              <p className="text-[14px] font-semibold">₹180</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* card 6 */}
-        <div className="min-w-[140.89px] lg:w-[140.89px] h-[210.35px] overflow-hidden bg-white rounded-2xl shadow-md relative shadow">
-        <div className="relative bg-[#E5E5E5] h-[118.97px] flex justify-center items-center">
-          <div className="absolute top-2 left-2 flex flex-col items-center">
-         <div className="w-0 h-0 border-l-[14px] border-r-[14px] border-b-[8px] border-transparent border-b-[#27AE60]"></div>
-            <div className="w-7 h-9 bg-gradient-to-b from-[#39CB77] via-[#27AE60] to-[#168946] text-white text-[10px] font-semibold rounded-b-lg flex items-center justify-center relative">
-               10%
-             <span className="absolute top-1 w-1.5 h-1.5 bg-white rounded-full"></span>
-             </div>
-          </div>
-          <button className="absolute top-2 right-2 w-7 h-7 rounded-xl border border-[#27AE60] text-[#27AE60] bg-white flex items-center justify-center text-lg">+</button>
-          <img src={pic24} className="w-[90px] h-[90px] object-contain" />
-        </div>
-        <div className="px-2 pt-2">
-          <p className="text-[12px] font-medium">Organic <br />Almond milk</p>
-          <div className="flex justify-between mt-1">
-            <span className="text-[12px] text-gray-500 flex">1Piece <IoIosArrowDown className='text-green-600 mt-1' /></span>
-            <div className="text-right">
-              <p className="text-[10px] line-through text-gray-400">₹60</p>
-              <p className="text-[14px] font-semibold">₹180</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* card 7 */}
-        <div className="min-w-[140.89px] lg:w-[140.89px] h-[210.35px] overflow-hidden bg-white rounded-2xl shadow-md relative shadow">
-        <div className="relative bg-[#E5E5E5] h-[118.97px] flex justify-center items-center">
-          <div className="absolute top-2 left-2 flex flex-col items-center">
-            <div className="w-0 h-0 border-l-[14px] border-r-[14px] border-b-[8px] border-transparent border-b-[#27AE60]"></div>
-            <div className="w-7 h-9 bg-gradient-to-b from-[#39CB77] via-[#27AE60] to-[#168946] text-white text-[10px] font-semibold rounded-b-lg flex items-center justify-center relative">
-               3%
-             <span className="absolute top-1 w-1.5 h-1.5 bg-white rounded-full"></span>
-             </div>
-          </div>
-          <button className="absolute top-2 right-2 w-7 h-7 rounded-xl border border-[#27AE60] text-[#27AE60] bg-white flex items-center justify-center text-lg">+</button>
-          <img src={pic25} className="w-[90px] h-[90px] object-contain" />
-        </div>
-        <div className="px-2 pt-2">
-          <p className="text-[12px] font-medium">Tomato</p>
-          <div className="flex justify-between mt-1">
-            <span className="text-[12px] text-gray-500 flex">1Piece <IoIosArrowDown className='text-green-600 mt-1' /></span>
-            <div className="text-right">
-              <p className="text-[10px] line-through text-gray-400">₹60</p>
-              <p className="text-[14px] font-semibold">₹180</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* card 8 */}
-        <div className="min-w-[140.89px] lg:w-[140.89px] h-[210.35px] overflow-hidden bg-white rounded-2xl shadow-md relative shadow">
-        <div className="relative bg-[#E5E5E5] h-[118.97px] flex justify-center items-center">
-          <div className="absolute top-2 left-2 flex flex-col items-center">
-            <div className="w-0 h-0 border-l-[14px] border-r-[14px] border-b-[8px] border-transparent border-b-[#27AE60]"></div>
-            <div className="w-7 h-9 bg-gradient-to-b from-[#39CB77] via-[#27AE60] to-[#168946] text-white text-[10px] font-semibold rounded-b-lg flex items-center justify-center relative">
-               5%
-             <span className="absolute top-1 w-1.5 h-1.5 bg-white rounded-full"></span>
-             </div>
-          </div>
-          <button className="absolute top-2 right-2 w-7 h-7 rounded-xl border border-[#27AE60] text-[#27AE60] bg-white flex items-center justify-center text-lg">+</button>
-          <img src={pic26} className="w-[90px] h-[90px] overflow-hidden" />
-        </div>
-        <div className="px-2 pt-2">
-          <p className="text-[12px] font-medium">Broccoli</p>
-          <div className="flex justify-between mt-1">
-            <span className="text-[12px] text-gray-500 flex">1Piece <IoIosArrowDown className='text-green-600 mt-1' /></span>
-            <div className="text-right">
-              <p className="text-[10px] line-through text-gray-400">₹60</p>
-              <p className="text-[14px] font-semibold">₹180</p>
-            </div>
-          </div>
-        </div>
-      </div>
-       </div>
+    </div>
 
-    {/* BLACK OVERLAY ARROW */}
-    <button
-      className="
-      mr-[-25px]
-        absolute
-        right-3
-        top-1/2
-        -translate-y-1/2
-        w-10
-        h-10
-        rounded-full
-        bg-black
-        flex
-        items-center
-        justify-center
-        shadow-lg
-        z-10
-      "
-    >
-      <svg
-        width="16"
-        height="16"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="white"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      >
-        <polyline points="9 18 15 12 9 6" />
-      </svg>
-    </button>
+      {/* CARD 2 */}
+     <div className="flex-shrink-0  w-[140.89px] h-[212.63px] rounded-2xl bg-white shadow-md relative overflow-hidden shadow  ">
+      <div className="relative bg-[#E5E5E5] h-[118.97px] flex items-center justify-center">
+        <div className="absolute top-2 left-2 flex flex-col items-center">
+               <div
+  className=" ms-[-8px] sm:ms-[-10px] lg:ms-[-12px] w-7 h-7
+    sm:w-8 sm:h-8 lg:w-[38.85px] lg:h-[38.85px] bg-contain bg-no-repeat bg-center
+    flex justify-center items-center
+    text-white"
+  style={{ backgroundImage: `url(${badge})` }}
+>
+  <p className="text-[10px] sm:text-xs lg:text-sm mt-[2px]">
+    5%
+  </p>
+</div>
+        </div>
+        <button className="absolute top-2 right-2 w-7 h-7 rounded-lg border border-[#27AE60] text-[#27AE60] flex items-center justify-center text-lg font-medium bg-white">
+          +
+        </button>
+        <img src={pic20} className="w-[52px] h-[92px] object-contain" />
+      </div>
+      <div className="px-2 pt-2 flex flex-col gap-1">
+        <p className="text-[12px] font-medium leading-tight">
+          Organic<br />Almond Milk
+        </p>
+        <div className="flex items-end justify-between mt-1">
+          <div className="flex items-center gap-1 text-[12px] text-gray-500">
+            1L <span className="text-[#27AE60] text-sm"><IoIosArrowDown className='text-green-600 ' /></span>
+          </div>
+          <div className="flex flex-col items-end leading-tight">
+            <span className="text-[10px] text-gray-400 line-through">₹280</span>
+            <span className="text-[14px] font-semibold text-black">₹280</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      {/* CARD 3 */}
+       <div className="flex-shrink-0  w-[140.89px] h-[212.63px] rounded-2xl bg-white shadow-md relative overflow-hidden shadow">
+      <div className="relative bg-[#E5E5E5] h-[118.97px] flex items-center justify-center">
+        <div className="absolute top-2 left-2 flex flex-col items-center">
+                <div
+  className=" ms-[-8px] sm:ms-[-10px] lg:ms-[-12px] w-7 h-7
+    sm:w-8 sm:h-8 lg:w-[38.85px] lg:h-[38.85px] bg-contain bg-no-repeat bg-center
+    flex justify-center items-center
+    text-white"
+  style={{ backgroundImage: `url(${badge})` }}
+>
+  <p className="text-[10px] sm:text-xs lg:text-sm mt-[2px]">
+    5%
+  </p>
+</div>
+        </div>
+       <button className="absolute top-2 right-2 w-7 h-7 rounded-lg border border-[#27AE60] text-[#27AE60] flex items-center justify-center text-lg font-medium bg-white">
+          +
+        </button>
+        <img src={pic21} className="w-[126px] h-[140px] object-contain" />
+      </div>
+      <div className="px-2 pt-2 flex flex-col gap-1">
+        <p className="text-[12px] font-medium leading-tight">
+          Hybrid  Tomatoes
+        </p>
+        <div className="flex items-end justify-between mt-5">
+          <div className="flex items-center gap-1 text-[12px] text-gray-500">
+            500g <span className="text-[#27AE60] text-sm"><IoIosArrowDown className='text-green-600 mt-1' /></span>
+          </div>
+          <div className="flex flex-col items-end leading-tight">
+            <span className="text-[10px] text-gray-400 line-through">₹30</span>
+            <span className="text-[14px] font-semibold text-black">₹25</span>
+          </div>
+        </div>
+      </div>
+    </div>
+      {/* card4 */}
+       <div className="flex-shrink-0  w-[140.89px] h-[212.63px] rounded-2xl bg-white shadow-md relative overflow-hidden shadow ">
+      <div className="relative bg-[#E5E5E5] h-[118.97px] flex items-center justify-center">
+        <div className="absolute top-2 left-2 flex flex-col items-center">
+                 <div
+  className=" ms-[-8px] sm:ms-[-10px] lg:ms-[-12px] w-7 h-7
+    sm:w-8 sm:h-8 lg:w-[38.85px] lg:h-[38.85px] bg-contain bg-no-repeat bg-center
+    flex justify-center items-center
+    text-white"
+  style={{ backgroundImage: `url(${badge})` }}
+>
+  <p className="text-[10px] sm:text-xs lg:text-sm mt-[2px]">
+    5%
+  </p>
+</div>
+        </div>
+        <div className="absolute top-2 right-2 flex items-center border border-[#27AE60] rounded-lg px-2 py-[2px] text-[#27AE60] text-sm font-medium gap-2 bg-white">
+          <span>−</span>
+          <span className="text-[12px]">01</span>
+          <span>+</span>
+        </div>
+        <img src={pic19} className="w-[52px] h-[92px] object-contain" />
+      </div>
+      <div className="px-2 pt-2 flex flex-col gap-1">
+        <p className="text-[12px] font-medium leading-tight">
+          Amul Dark<br />Chocolate 70% Cocoa
+        </p>
+        <div className="flex items-end justify-between mt-1">
+          <div className="flex items-center gap-1 text-[12px] text-gray-500">
+            200g <span className="text-[#27AE60] text-sm"><IoIosArrowDown className='text-green-600 mt-1' /></span>
+          </div>
+          <span className="text-[14px] font-semibold text-black">₹180</span>
+        </div>
+      </div>
+    </div>
+    {/* card 5 */}
+    <div className="flex-shrink-0  w-[140.89px] h-[212.63px] rounded-2xl bg-white shadow-md relative overflow-hidden shadow">
+      <div className="relative bg-[#E5E5E5] h-[118.97px] flex items-center justify-center">
+        <div className="absolute top-2 left-2 flex flex-col items-center">
+               <div
+  className=" ms-[-8px] sm:ms-[-10px] lg:ms-[-12px] w-7 h-7
+    sm:w-8 sm:h-8 lg:w-[38.85px] lg:h-[38.85px] bg-contain bg-no-repeat bg-center
+    flex justify-center items-center
+    text-white"
+  style={{ backgroundImage: `url(${badge})` }}
+>
+  <p className="text-[10px] sm:text-xs lg:text-sm mt-[2px]">
+    5%
+  </p>
+</div>
+        </div>
+       <button className="absolute top-2 right-2 w-7 h-7 rounded-lg border border-[#27AE60] text-[#27AE60] flex items-center justify-center text-lg font-medium bg-white">
+          +
+        </button>
+        <img src={pic22} className="w-[141px] h-[102px] object-contain" />
+      </div>
+      <div className="px-2 pt-2 flex flex-col gap-1">
+        <p className="text-[12px] font-medium leading-tight">
+          Broccoli
+        </p>
+        <div className="flex items-end justify-between mt-5">
+          <div className="flex items-center gap-1 text-[12px] text-gray-500">
+            1Piece <span className="text-[#27AE60] text-sm"><IoIosArrowDown className='text-green-600 mt-1' /></span>
+          </div>
+          <div className="flex flex-col items-end leading-tight">
+            <span className="text-[10px] text-gray-400 line-through">₹60</span>
+            <span className="text-[14px] font-semibold text-black">₹50</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    {/* card 6 */}
+     <div className="flex-shrink-0  w-[140.89px] h-[212.63px] rounded-2xl bg-white shadow-md relative overflow-hidden shadow  ">
+      <div className="relative bg-[#E5E5E5] h-[118.97px] flex items-center justify-center">
+        <div className="absolute top-2 left-2 flex flex-col items-center">
+                <div
+  className=" ms-[-8px] sm:ms-[-10px] lg:ms-[-12px] w-7 h-7
+    sm:w-8 sm:h-8 lg:w-[38.85px] lg:h-[38.85px] bg-contain bg-no-repeat bg-center
+    flex justify-center items-center
+    text-white"
+  style={{ backgroundImage: `url(${badge})` }}
+>
+  <p className="text-[10px] sm:text-xs lg:text-sm mt-[2px]">
+    5%
+  </p>
+</div>
+        </div>
+        <button className="absolute top-2 right-2 w-7 h-7 rounded-lg border border-[#27AE60] text-[#27AE60] flex items-center justify-center text-lg font-medium bg-white">
+          +
+        </button>
+        <img src={pic20} className="w-[52px] h-[92px] object-contain" />
+      </div>
+      <div className="px-2 pt-2 flex flex-col gap-1">
+        <p className="text-[12px] font-medium leading-tight">
+          Organic<br />Almond Milk
+        </p>
+        <div className="flex items-end justify-between mt-1">
+          <div className="flex items-center gap-1 text-[12px] text-gray-500">
+            1L <span className="text-[#27AE60] text-sm"><IoIosArrowDown className='text-green-600 ' /></span>
+          </div>
+          <div className="flex flex-col items-end leading-tight">
+            <span className="text-[10px] text-gray-400 line-through">₹280</span>
+            <span className="text-[14px] font-semibold text-black">₹280</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    {/* card 7 */}
+        <div className="flex-shrink-0  w-[140.89px] h-[212.63px] rounded-2xl bg-white shadow-md relative overflow-hidden shadow">
+      <div className="relative bg-[#E5E5E5] h-[118.97px] flex items-center justify-center">
+        <div className="absolute top-2 left-2 flex flex-col items-center">
+               <div
+  className=" ms-[-8px] sm:ms-[-10px] lg:ms-[-12px] w-7 h-7
+    sm:w-8 sm:h-8 lg:w-[38.85px] lg:h-[38.85px] bg-contain bg-no-repeat bg-center
+    flex justify-center items-center
+    text-white"
+  style={{ backgroundImage: `url(${badge})` }}
+>
+  <p className="text-[10px] sm:text-xs lg:text-sm mt-[2px]">
+    5%
+  </p>
+</div>
+        </div>
+       <button className="absolute top-2 right-2 w-7 h-7 rounded-lg border border-[#27AE60] text-[#27AE60] flex items-center justify-center text-lg font-medium bg-white">
+          +
+        </button>
+        <img src={pic21} className="w-[126px] h-[140px] object-contain" />
+      </div>
+      <div className="px-2 pt-2 flex flex-col gap-1">
+        <p className="text-[12px] font-medium leading-tight">
+          Hybrid  Tomatoes
+        </p>
+        <div className="flex items-end justify-between mt-5">
+          <div className="flex items-center gap-1 text-[12px] text-gray-500">
+            500g <span className="text-[#27AE60] text-sm"><IoIosArrowDown className='text-green-600 mt-1' /></span>
+          </div>
+          <div className="flex flex-col items-end leading-tight">
+            <span className="text-[10px] text-gray-400 line-through">₹30</span>
+            <span className="text-[14px] font-semibold text-black">₹25</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    {/* card 8 */}
+     <div className="flex-shrink-0  w-[140.89px] h-[212.63px] rounded-2xl bg-white shadow-md relative overflow-hidden shadow ">
+      <div className="relative bg-[#E5E5E5] h-[118.97px] flex items-center justify-center">
+        <div className="absolute top-2 left-2 flex flex-col items-center">
+                 <div
+  className=" ms-[-8px] sm:ms-[-10px] lg:ms-[-12px] w-7 h-7
+    sm:w-8 sm:h-8 lg:w-[38.85px] lg:h-[38.85px] bg-contain bg-no-repeat bg-center
+    flex justify-center items-center
+    text-white"
+  style={{ backgroundImage: `url(${badge})` }}
+>
+  <p className="text-[10px] sm:text-xs lg:text-sm mt-[2px]">
+    5%
+  </p>
+</div>
+        </div>
+        <div className="absolute top-2 right-2 flex items-center border border-[#27AE60] rounded-lg px-2 py-[2px] text-[#27AE60] text-sm font-medium gap-2 bg-white">
+          <span>−</span>
+          <span className="text-[12px]">01</span>
+          <span>+</span>
+        </div>
+        <img src={pic19} className="w-[52px] h-[92px] object-contain" />
+      </div>
+      <div className="px-2 pt-2 flex flex-col gap-1">
+        <p className="text-[12px] font-medium leading-tight">
+          Amul Dark<br />Chocolate 70% Cocoa
+        </p>
+        <div className="flex items-end justify-between mt-1">
+          <div className="flex items-center gap-1 text-[12px] text-gray-500">
+            200g <span className="text-[#27AE60] text-sm"><IoIosArrowDown className='text-green-600 mt-1' /></span>
+          </div>
+          <span className="text-[14px] font-semibold text-black">₹180</span>
+        </div>
+      </div>
+    </div>
+     
+
+    </div>
+
+    {/* Arrow */}
+ <button
+  className="
+    hidden lg:flex
+    absolute
+    right-4
+    top-1/2
+    -translate-y-1/2
+    w-12
+    h-12
+    rounded-full
+    bg-black
+    items-center
+    justify-center
+    shadow-xl
+    z-40
+  "
+>
+  <FaPlay className="text-white text-sm" />
+</button>
+
+
+
 
   </div>
 </div>
+
 
     {/* Top Brands */}
     <div className="w-full max-w-[1200.93px] mx-auto mt-6 flex flex-col px-3">
   <h1 className="text-xl font-semibold mb-4">Top Brands</h1>
 
   <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:flex lg:justify-center lg:items-center lg:gap-5">
-    <div className="w-full lg:w-[187.59px] h-[108.64px] bg-white border border-[#27AE60] rounded-2xl flex justify-center items-center">
+    <div className="w-full lg:w-[187.59px] h-[108.64px] bg-white border border-[#27AE60] shadow shadow-[#27AE6040] rounded-2xl flex justify-center items-center">
       <img className="w-[114.28px] h-[36.61px] object-contain" src={pic27} />
     </div>
 
-    <div className="w-full lg:w-[187.59px] h-[108.64px] bg-white border border-[#27AE60] rounded-2xl flex justify-center items-center">
+    <div className="w-full lg:w-[187.59px] h-[108.64px] bg-white border border-[#27AE60] shadow shadow-[#27AE6040] rounded-2xl flex justify-center items-center">
       <img className="w-[60.69px] h-[62.97px] object-contain" src={pic28} />
     </div>
 
-    <div className="w-full lg:w-[187.59px] h-[108.64px] bg-white border border-[#27AE60] rounded-2xl flex justify-center items-center">
+    <div className="w-full lg:w-[187.59px] h-[108.64px] bg-white border border-[#27AE60] shadow shadow-[#27AE6040] rounded-2xl flex justify-center items-center">
       <img className="w-[90.77px] h-[50.43px] object-contain" src={pic29} />
     </div>
 
-    <div className="w-full lg:w-[187.59px] h-[108.64px] bg-white border border-[#27AE60] rounded-2xl flex justify-center items-center">
+    <div className="w-full lg:w-[187.59px] h-[108.64px] bg-white border border-[#27AE60] shadow shadow-[#27AE6040] rounded-2xl flex justify-center items-center">
       <img className="w-[92.95px] h-[94.2px] object-contain" src={pic30} />
     </div>
 
-    <div className="w-full lg:w-[187.59px] h-[108.64px] bg-white border border-[#27AE60] rounded-2xl flex justify-center items-center">
+    <div className="w-full lg:w-[187.59px] h-[108.64px] bg-white border border-[#27AE60] shadow shadow-[#27AE6040] rounded-2xl flex justify-center items-center">
       <img className="w-[90.77px] h-[50.43px] object-contain" src={pic31} />
     </div>
 
-    <div className="w-full lg:w-[187.59px] h-[108.64px] bg-white border border-[#27AE60] rounded-2xl flex justify-center items-center">
+    <div className="w-full lg:w-[187.59px] h-[108.64px] bg-white border border-[#27AE60] shadow shadow-[#27AE6040] rounded-2xl flex justify-center items-center">
       <img className="w-[92.95px] h-[94.2px] object-contain" src={pic32} />
     </div>
   </div>
@@ -846,19 +1051,19 @@ function User_home() {
     {/* 4 */}
     <div className="w-[109px] h-[120px] bg-[#27AE601A] rounded-2xl flex flex-col justify-center items-center">
       <p className="text-[12px] font-semibold text-center">Frozen <br/> Foods</p>
-      <img src={pic36} className="mt-2 max-h-[65px] object-contain" />
+      <img src={frozen} className="mt-2 max-h-[65px] object-contain" />
     </div>
 
     {/* 5 */}
     <div className="w-[109px] h-[120px] bg-[#27AE601A] rounded-2xl flex flex-col justify-center items-center">
       <p className="text-[12px] font-semibold text-center">Pantry <br/> Staples</p>
-      <img src={pic37} className="mt-2 max-h-[65px] object-contain" />
+      <img src={pantry} className="mt-2 max-h-[65px] object-contain" />
     </div>
 
     {/* 6 */}
     <div className="w-[109px] h-[120px] bg-[#27AE601A] rounded-2xl flex flex-col justify-center items-center">
       <p className="text-[12px] font-semibold text-center">Snack & <br/> Sweets</p>
-      <img src={pic38} className="mt-2 max-h-[65px] object-contain" />
+      <img src={snacks} className="mt-2 max-h-[65px] object-contain" />
     </div>
 
     {/* 7 */}
@@ -870,7 +1075,7 @@ function User_home() {
     {/* 8 */}
     <div className="w-[109px] h-[120px] bg-[#27AE601A] rounded-2xl flex flex-col justify-center items-center">
       <p className="text-[12px] font-semibold text-center">Breakfast <br/> Foods</p>
-      <img src={pic40} className="mt-2 max-h-[65px] object-contain" />
+      <img src={breakfast} className="mt-2 max-h-[65px] object-contain" />
     </div>
 
     {/* 9 */}
@@ -914,7 +1119,7 @@ function User_home() {
 
     <div className="w-[109px] h-[120px] bg-[#27AE601A] rounded-2xl flex flex-col justify-center items-center">
       <p className="text-[12px] font-semibold text-center">Specialty <br/> Items</p>
-      <img src={pic49} className="mt-2 max-h-[65px] object-contain" />
+      <img src={items} className="mt-2 max-h-[65px] object-contain" />
     </div>
 
   </div>
@@ -957,21 +1162,21 @@ function User_home() {
     </div>
 
     {/* 4 */}
-    <div className="w-[109px] h-[120px] bg-[#27AE601A] rounded-2xl flex flex-col justify-center items-center">
+     <div className="w-[109px] h-[120px] bg-[#27AE601A] rounded-2xl flex flex-col justify-center items-center">
       <p className="text-[12px] font-semibold text-center">Frozen <br/> Foods</p>
-      <img src={pic36} className="mt-2 max-h-[65px] object-contain" />
+      <img src={frozen} className="mt-2 max-h-[65px] object-contain" />
     </div>
 
     {/* 5 */}
-    <div className="w-[109px] h-[120px] bg-[#27AE601A] rounded-2xl flex flex-col justify-center items-center">
+  <div className="w-[109px] h-[120px] bg-[#27AE601A] rounded-2xl flex flex-col justify-center items-center">
       <p className="text-[12px] font-semibold text-center">Pantry <br/> Staples</p>
-      <img src={pic37} className="mt-2 max-h-[65px] object-contain" />
+      <img src={pantry} className="mt-2 max-h-[65px] object-contain" />
     </div>
 
     {/* 6 */}
-    <div className="w-[109px] h-[120px] bg-[#27AE601A] rounded-2xl flex flex-col justify-center items-center">
+     <div className="w-[109px] h-[120px] bg-[#27AE601A] rounded-2xl flex flex-col justify-center items-center">
       <p className="text-[12px] font-semibold text-center">Snack & <br/> Sweets</p>
-      <img src={pic38} className="mt-2 max-h-[65px] object-contain" />
+      <img src={snacks} className="mt-2 max-h-[65px] object-contain" />
     </div>
 
     {/* 7 */}
@@ -981,9 +1186,9 @@ function User_home() {
     </div>
 
     {/* 8 */}
-    <div className="w-[109px] h-[120px] bg-[#27AE601A] rounded-2xl flex flex-col justify-center items-center">
+     <div className="w-[109px] h-[120px] bg-[#27AE601A] rounded-2xl flex flex-col justify-center items-center">
       <p className="text-[12px] font-semibold text-center">Breakfast <br/> Foods</p>
-      <img src={pic40} className="mt-2 max-h-[65px] object-contain" />
+      <img src={breakfast} className="mt-2 max-h-[65px] object-contain" />
     </div>
 
     {/* 9 */}
@@ -1025,9 +1230,9 @@ function User_home() {
       <img src={pic48} className="mt-2 max-h-[65px] object-contain" />
     </div>
 
-    <div className="w-[109px] h-[120px] bg-[#27AE601A] rounded-2xl flex flex-col justify-center items-center">
+   <div className="w-[109px] h-[120px] bg-[#27AE601A] rounded-2xl flex flex-col justify-center items-center">
       <p className="text-[12px] font-semibold text-center">Specialty <br/> Items</p>
-      <img src={pic49} className="mt-2 max-h-[65px] object-contain" />
+      <img src={items} className="mt-2 max-h-[65px] object-contain" />
     </div>
 
   </div>
