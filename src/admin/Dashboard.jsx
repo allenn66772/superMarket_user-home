@@ -87,7 +87,7 @@ function Dashboard() {
 
 
         {/* main content */}
-          <div className='flex flex-col '>
+          <div className='w-full max-w-[1224.47px] mx-auto flex flex-col  '>
             {/* Header */}
             <Dashboardheader/>      
          
@@ -258,12 +258,7 @@ function Dashboard() {
         </div>
     
         {/* card 3 */}
-       <div className="w-[353px] 
-    h-auto lg:h-[337.65px] 
-    bg-white rounded-2xl 
-    mt-3 mb-3 lg:mt-0 lg:mb-0 
-    lg:ms-[11.17px]
-    ">
+       <div className="w-[353px]  h-auto lg:h-[337.65px]  bg-white rounded-2xl  mt-3 mb-3 lg:mt-0 lg:mb-0  lg:ms-[11.17px]">
     
         {/* Header */}
         <div className="w-[315px] h-[12px] ms-[14.32px] mt-[20.77px] flex justify-between items-center">
@@ -271,7 +266,7 @@ function Dashboard() {
             <RiArrowRightUpLine className="text-[#F39C12] text-xl" />
         </div>
     
-        <h1 className="ms-[19.2px] mt-[10.15px] font-semibold">
+        <h1 className="ms-[19.2px] mt-[10.15px] ">
             Select Report Type
         </h1>
     
@@ -514,7 +509,7 @@ function Dashboard() {
     
              {/*cards 2  */}
     
-    <div className="w-[1145.28px] flex flex-col lg:flex-row  lg:gap-6 ">
+    <div className="w-[1178.47px] flex flex-col lg:flex-row  lg:gap-6 ">
 
   {/* LEFT CARD */}
 <div className="w-full ms-[4px]
@@ -533,31 +528,17 @@ function Dashboard() {
                 mx-auto">
 
   {/* Title */}
-  <h1 className="font-semibold 
-                 text-sm 
-                 sm:text-base 
-                 lg:text-lg
-                 mt-2 
-                 lg:mt-[27.32px] 
-                 lg:ms-[16.8px]">
+  <h1 className="font-semibold  text-sm  sm:text-base  lg:text-lg
+                 mt-2  lg:mt-[27.32px]  lg:ms-[16.8px]">
     Inventory Levels
   </h1>
 
   {/* Chart Section */}
-  <div className="mt-4 
-                  lg:mt-[24.24px] 
-                  w-full 
-                  flex 
-                  justify-center">
+  <div className="mt-4 lg:mt-[24.24px]  w-full flex justify-center">
     <img
       src={graph02}
       alt="Inventory Graph"
-      className="w-full 
-                 max-h-[180px] 
-                 sm:max-h-[220px] 
-                 lg:max-h-none
-                 object-contain"
-    />
+      className="w-full max-h-[180px]  sm:max-h-[220px] lg:max-h-none object-contain"/>
   </div>
 
 </div>
@@ -565,122 +546,107 @@ function Dashboard() {
 
 
 
-<div className="w-full ms-[-5px] mt-2 lg:mt-4
-                max-w-[360px] 
-                sm:max-w-[480px] 
-                lg:max-w-[626.24px] 
-                mx-auto 
-                px-3 sm:px-0">
+<div className="w-full ms-[-5px] mt-2 lg:mt-4 max-w-[360px] lg:ms-[13.12px] sm:max-w-[480px] 
+                lg:max-w-[626.24px]  mx-auto px-3 sm:px-0">
 
   {/* BUTTON TABS */}
-  <div className="flex 
-                  flex-col 
-                  sm:flex-row 
-                  gap-2 
-                  sm:gap-4 
-                  mb-3">
+  <div className="flex  flex-col justify-center items-center  sm:flex-row  gap-2  sm:gap-4  mb-3">
 
-    <div className="px-4 py-2 
-                    text-xs sm:text-sm 
-                    rounded-xl 
-                    border border-[#27AE60] 
-                    bg-[#27AE6040] 
-                    text-center">
+    <div className="px-4 py-2  w-[200.85px] text-xs sm:text-sm  rounded-xl border border-[#27AE60]  bg-[#27AE6040]  text-center">
       RECENT ORDERS
     </div>
 
-    <div className="px-4 py-2 
-                    text-xs sm:text-sm 
-                    rounded-xl 
-                    border 
-                    text-center">
+    <div className="px-4 py-2 w-[200.85px] text-xs sm:text-sm  rounded-xl  bg-white  text-center">
       ON-TIME DELIVERY
     </div>
 
-    <div className="px-4 py-2 
-                    text-xs sm:text-sm 
-                    rounded-xl 
-                    border 
-                    text-center">
+    <div className="px-4 py-2 w-[200.85px] text-xs sm:text-sm  rounded-xl  bg-white text-center">
       DELIVERY UPDATES
     </div>
 
   </div>
 
   {/* TABLE CARD */}
-  <div className="bg-white 
-                  rounded-2xl 
-                  p-3 sm:p-6">
+  <div className="bg-white rounded-2xl p-3 sm:p-6">
 
-    {/* Mobile Title */}
-    <div className="lg:hidden text-sm font-semibold mb-3">
-      Recent Orders
-    </div>
+  {/* Mobile Title */}
+  <div className="lg:hidden text-sm font-semibold mb-3">
+    Recent Orders
+  </div>
 
-    {/* Desktop Header */}
-    <div className="hidden lg:grid grid-cols-4 font-semibold mb-4">
-      <p>Order Id</p>
-      <p>Name</p>
-      <p className="text-right">Amount</p>
-      <p className="text-right">Status</p>
-    </div>
+  {/* Scroll Wrapper */}
+  <div className="overflow-x-auto lg:overflow-visible">
 
-    {/* ROWS */}
-    <div className="space-y-3 text-xs sm:text-sm">
+    <div className="min-w-[500px]">
 
-      {/* Row 1 */}
-      <div className="grid grid-cols-4 items-center border-b pb-2">
-        <p>#123655</p>
-        <p>John Doe</p>
-        <p className="text-right font-medium">₹2500</p>
-        <div className="flex justify-end">
-          <img src={status01} className="w-4 h-4 sm:w-6 sm:h-6" />
-        </div>
+      {/* Desktop Header */}
+      <div className="hidden lg:grid grid-cols-4 font-semibold mb-4">
+        <p>Order Id</p>
+        <p>Name</p>
+        <p className="text-right">Amount</p>
+        <p className="text-right">Status</p>
       </div>
 
-      {/* Row 2 */}
-      <div className="grid grid-cols-4 items-center border-b pb-2">
-        <p>#123655</p>
-        <p>John Doe</p>
-        <p className="text-right font-medium">₹3000</p>
-        <div className="flex justify-end">
-          <img src={status02} className="w-4 h-4 sm:w-6 sm:h-6" />
-        </div>
-      </div>
+      {/* ROWS */}
+      <div className="space-y-3 text-xs sm:text-sm">
 
-      {/* Row 3 */}
-      <div className="grid grid-cols-4 items-center border-b pb-2">
-        <p>#123655</p>
-        <p>John Doe</p>
-        <p className="text-right font-medium">₹250</p>
-        <div className="flex justify-end">
-          <img src={status03} className="w-4 h-4 sm:w-6 sm:h-6" />
+        {/* Row 1 */}
+        <div className="grid grid-cols-4 items-center border-b pb-2">
+          <p>#123655</p>
+          <p>John Doe</p>
+          <p className="text-right font-medium">₹2500</p>
+          <div className="flex justify-end">
+            <img src={status01} className="w-4 h-4 sm:w-6 sm:h-6" />
+          </div>
         </div>
-      </div>
 
-      {/* Row 4 */}
-      <div className="grid grid-cols-4 items-center border-b pb-2">
-        <p>#123655</p>
-        <p>John Doe</p>
-        <p className="text-right font-medium">₹500</p>
-        <div className="flex justify-end">
-          <img src={status04} className="w-4 h-4 sm:w-6 sm:h-6" />
+        {/* Row 2 */}
+        <div className="grid grid-cols-4 items-center border-b pb-2">
+          <p>#123655</p>
+          <p>John Doe</p>
+          <p className="text-right font-medium">₹3000</p>
+          <div className="flex justify-end">
+            <img src={status02} className="w-4 h-4 sm:w-6 sm:h-6" />
+          </div>
         </div>
-      </div>
 
-      {/* Row 5 */}
-      <div className="grid grid-cols-4 items-center">
-        <p>#123655</p>
-        <p>John Doe</p>
-        <p className="text-right font-medium">₹10,000</p>
-        <div className="flex justify-end">
-          <img src={status01} className="w-4 h-4 sm:w-6 sm:h-6" />
+        {/* Row 3 */}
+        <div className="grid grid-cols-4 items-center border-b pb-2">
+          <p>#123655</p>
+          <p>John Doe</p>
+          <p className="text-right font-medium">₹250</p>
+          <div className="flex justify-end">
+            <img src={status03} className="w-4 h-4 sm:w-6 sm:h-6" />
+          </div>
         </div>
-      </div>
 
+        {/* Row 4 */}
+        <div className="grid grid-cols-4 items-center border-b pb-2">
+          <p>#123655</p>
+          <p>John Doe</p>
+          <p className="text-right font-medium">₹500</p>
+          <div className="flex justify-end">
+            <img src={status04} className="w-4 h-4 sm:w-6 sm:h-6" />
+          </div>
+        </div>
+
+        {/* Row 5 */}
+        <div className="grid grid-cols-4 items-center">
+          <p>#123655</p>
+          <p>John Doe</p>
+          <p className="text-right font-medium">₹10,000</p>
+          <div className="flex justify-end">
+            <img src={status01} className="w-4 h-4 sm:w-6 sm:h-6" />
+          </div>
+        </div>
+
+      </div>
     </div>
 
   </div>
+
+</div>
+
 
 </div>
 

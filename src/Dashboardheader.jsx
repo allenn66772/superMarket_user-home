@@ -10,7 +10,7 @@ function Dashboardheader() {
     const [dropdownOpen, setDropdownOpen] = useState(false);
   return (
     <>
- <div className="w-full max-w-[1224.47px] h-auto mt-[44.59px] flex flex-col md:flex-row justify-between mb-4">
+ <div className="w-full max-w-[1178.47px] h-auto mt-[44.59px] flex flex-col md:flex-row justify-between mb-4">
     {/* Buttons row - always on top */}
     <div className="w-full md:w-[269px] h-[44px] ms-[14.85px] flex gap-3 mb-4 md:mb-0">
         <div className="w-[117px] h-[40px] flex justify-center items-center rounded-3xl bg-white gap-2">
@@ -41,7 +41,7 @@ function Dashboardheader() {
 
         {/* dropdown for small screens */}
         <div className="md:hidden relative">
-            <button onClick={() => setDropdownOpen(!dropdownOpen)} className="w-[44px] h-[44px] bg-white rounded-full flex justify-center items-center">
+            <button onClick={() => setDropdownOpen(!dropdownOpen)} className="w-[44px] h-[44px] bg-white rounded-full flex justify-center items-center ms-[-12px]">
                 {/* Hamburger or dots icon - using SVG for simplicity */}
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
